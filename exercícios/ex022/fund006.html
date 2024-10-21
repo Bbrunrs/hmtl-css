@@ -6,11 +6,21 @@
     <title>Document</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* shorthand-background
+            color > image > position > repeat > [size] > attachment 
+            */
+            height: 100vh;
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main{
@@ -18,7 +28,7 @@
             width: 400px;
             padding: 10px;
             margin: auto;
-            border: 1px solid black;
+            border: 1px solid darkblue;
             border-radius: 15px;
         }
     </style>
@@ -26,7 +36,7 @@
 <body>
     <main>
         <h1>teste imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ea ab explicabo magni corporis sit, quis aspernatur maxime iusto quo architecto expedita cupiditate consectetur recusandae numquam, cum magnam, id tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum animi dolorum, numquam, illo, reprehenderit provident nemo laudantium possimus iure libero quia minima sed molestias tenetur amet perspiciatis neque delectus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, nulla dolore! Autem est iure dolor! Laudantium iure sint accusantium harum, libero veniam. Quas iste possimus, ad facilis tempore asperiores corrupti.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ea ab explicabo magni corporis sit, quis aspernatur maxime iusto quo architecto expedita cupiditate consectetur recusandae numquam, cum magnam, id tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum animi dolorum, numquam, illo, reprehenderit provident nemo laudantium possimus iure libero quia minima sed molestias tenetur amet perspiciatis neque delectus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, nulla dolore! Autem est iure dolor! Laudantium iure sint accusantium harum, libero veniam. Quas iste possimus, ad facilis tempore asperiores corrupti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dicta aspernatur laborum hic quibusdam eum sint rem voluptates nostrum quam tempora nemo nobis, dolorem, in doloribus odio libero rerum ipsum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ex. Atque excepturi autem libero explicabo velit numquam qui error optio ut veritatis doloribus adipisci distinctio, aperiam quaerat ullam et unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, beatae consequatur. Animi provident repellendus est ea ratione, ut autem. Enim, repellat praesentium. Perferendis commodi quo doloremque voluptatum aperiam ex minima.</p>
     </main>
 </body>
 </html>
